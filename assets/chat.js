@@ -52,6 +52,7 @@ var chatbotHistory = "";
 var displayName = "Customer";
 var botName = "Bot";
 var chatbotHistorySent = false;
+var surveyURI = "survey.html";
 
 
 
@@ -129,10 +130,15 @@ function resetChat(){
 }
 
 function disableChat(){
-   printMessage("Chat finalizado");
+	printMessage("Chat finalizado");
 	
 	$("#mytext").prop('disabled', true);
-	$("#endChat").prop('disabled', true);	
+	$("#endChat").prop('disabled', true);
+	
+	if(surveyURI)
+	{		
+		window.location.href = $(location).attr('origin') + "/" + surveyURI;
+	}
 							
 }
 
@@ -150,16 +156,17 @@ function createChatPurecloud(){
 				
 				token = result.jwt;
 				conversationId = result.id;	
-				printMessage("Conectando con agente...");				
+							
 				let webSocket = new WebSocket(result.eventStreamUri);
 				
 				webSocket.onopen = function(e) {
 				  console.log("Connection established");
+				  printMessage("Conectando con agente...");
+				  $("#mytext").prop('readonly', true);				  
 				};
 
 				webSocket.onmessage = function(event) {
-					console.log(event.data, "event.data");
-					
+					console.log(event.data, "event.data");					
 					
 					let message = JSON.parse(event.data);
 					console.log(message, "message");
@@ -176,8 +183,7 @@ function createChatPurecloud(){
 						{
 							//Agent or customer disconnected
 							webSocket.close();		
-							disableChat();
-							//window.location.href = 'http://davivienda.custhelp.com/ci/documents/detail/1/AvMG~wr~Dv8S~xb~Gv8e~yL~Jv8q~y7~Mv86~zr~Pv~z/6/223/5/15/7/7585299/12/46a3781bc6dfdc82f309c8bc39687b788ca573b1/15/MjM3MDEyMg..';
+							disableChat();							
 						}
 					}						
 				  
@@ -224,7 +230,8 @@ function getConversationMembers(){
 						else if(entity.role == "AGENT")
 						{	
 							agentMemberId = entity.id;
-							currentParticipant = PARTICIPANT_TYPE.AGENT;							
+							currentParticipant = PARTICIPANT_TYPE.AGENT;
+							$("#mytext").prop('readonly', false);
 						}
 							
 					  
