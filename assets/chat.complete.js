@@ -285,7 +285,7 @@ function sendMessageToBot(text, type = "standard"){
 					//insertChat("bot", "Respuesta bot ->" + result.args.text); 
 				
 				//Rules to transfer to agent
-				if(result.confidence <= confidenceRate || (result.query && result.query.toLowerCase().includes("agente")))
+				if(result.confidence <= confidenceRate || (result.query && result.intent.toLowerCase().includes("agente")))
 				{
 					//create purecloud chat
 					createChatPurecloud();
