@@ -133,8 +133,6 @@ function disableChat(){
 	
 	$("#mytext").prop('disabled', true);
 	$("#endChat").prop('disabled', true);	
-
-	//window.location.href = 'http://davivienda.custhelp.com/ci/documents/detail/1/AvMG~wr~Dv8S~xb~Gv8e~yL~Jv8q~y7~Mv86~zr~Pv~z/6/223/5/15/7/7585299/12/46a3781bc6dfdc82f309c8bc39687b788ca573b1/15/MjM3MDEyMg..';
 							
 }
 
@@ -179,6 +177,7 @@ function createChatPurecloud(){
 							//Agent or customer disconnected
 							webSocket.close();		
 							disableChat();
+							window.location.href = 'http://davivienda.custhelp.com/ci/documents/detail/1/AvMG~wr~Dv8S~xb~Gv8e~yL~Jv8q~y7~Mv86~zr~Pv~z/6/223/5/15/7/7585299/12/46a3781bc6dfdc82f309c8bc39687b788ca573b1/15/MjM3MDEyMg..';
 						}
 					}						
 				  
