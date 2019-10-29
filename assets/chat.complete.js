@@ -134,11 +134,6 @@ function disableChat(){
 	
 	$("#mytext").prop('disabled', true);
 	$("#endChat").prop('disabled', true);
-	
-	if(surveyURI)
-	{		
-		window.location.href = $(location).attr('origin') + "/" + surveyURI;
-	}
 							
 }
 
@@ -183,7 +178,11 @@ function createChatPurecloud(){
 						{
 							//Agent or customer disconnected
 							webSocket.close();		
-							disableChat();							
+							disableChat();
+							if(surveyURI)
+							{		
+								window.location.href = $(location).attr('origin') + "/" + surveyURI;
+							}							
 						}
 					}						
 				  
@@ -245,6 +244,8 @@ function getConversationMembers(){
 }
 
 function endConversation(){
+	
+	console.log("customerMemberId: " + customerMemberId, "endConversation")
 	let url = "https://api.mypurecloud.com/api/v2/webchat/guest/conversations/" + conversationId + "/members/" + customerMemberId;
 	  
 	if(customerMemberId)
@@ -339,7 +340,8 @@ $("#sendButton").click(function(e){
 });	
 
 $("#endChat").click(function(e){
-	if(currentParticipant = PARTICIPANT_TYPE.BOT)
+	console.log("currentParticipant: " + currentParticipant, "endChat");
+	if(currentParticipant == PARTICIPANT_TYPE.BOT)
 	{	
 		disableChat();
 		return;
