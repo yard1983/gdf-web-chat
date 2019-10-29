@@ -4,6 +4,24 @@ me.avatar = "http://virtualproductions.co.za/wp-content/uploads/2018/04/user_ima
 var bot = {};
 bot.avatar = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmYPWnjPHbtWJ7ii5zqc3Xf9K1vx8K3jbnP_VtGNE2N5LyFiWHTQ&s";
 
+var chatConfig = {
+				  "organizationId": "2789fc30-6e86-42f2-a8ad-b153f994590a",
+				  "deploymentId": "47244ccb-18d7-4392-96b5-e79be24b372f",
+				  "routingTarget": {
+					"targetType": "QUEUE",
+					"targetAddress": "Andina_JL"
+				  },
+				  "memberInfo": {
+					"displayName": "Customer",
+					"profileImageUrl": me.avatar,
+					"customFields": {
+					  "firstName": "Customer",
+					  "lastName": ""
+					  }
+					}
+				  };
+
+				  
 /* ininadoptioninternal
 var chatConfig = {
 				  "organizationId": "469e5298-2ec4-4340-bdea-08ad8c2495b5",
@@ -22,7 +40,7 @@ var chatConfig = {
 					}
 				  };
 
-*/
+
 
 //pspurecloudpractice
 var chatConfig = {
@@ -41,7 +59,7 @@ var chatConfig = {
 					  }
 					}
 				  };				  
-
+*/
 const PARTICIPANT_TYPE = { BOT: "Bot", AGENT: "Agente"}				  
 var token = "";
 var conversationId = "";
