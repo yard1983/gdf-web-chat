@@ -1,0 +1,143 @@
+html{margin: 0;padding: 0;font-size: 16px;}
+*{outline: none;}
+body{font-family: 'HelveticaNeueLTStdCn',Arial, sans-serif;}
+.textoCentrado{text-align: center;}
+.textoCentrado p{font-size: 21px;}
+.im_Container{width: 1140px;padding:0px 15px;margin: 0 auto;}
+.im_FloatLeft{float: left;}
+.im_FloatRight{float: right;}
+#im_TopHeader{background: #ED1F24;height: 90px;padding: 0;margin: 0;line-height: 90px;}
+#im_SearchBar{height: 30px;padding: 20px 0;margin: 0;background: #EEEEEE;text-align: right;}
+.im_SearchBarAlign, .im_SearchBarAlign i{display: inline-block;}
+#im_BigHero{color:#FFFFFF;min-height: 213px;overflow: hidden;}
+#im_BigHero h2{margin-top: 15%;font-size: 55px !important;font-family: 'HelveticaNeueLTStdThCn', sans-serif;}
+#im_BigHero h2 span{font-family: 'HelveticaNeueLTStdBdCn', sans-serif;}
+.im_BigHeroHome{background: #ED1F24 url(../../themes/davivienda/images/davivienda/1.png)no-repeat right 50%;}
+.im_BigHeroAsk{background: #ED1F24 url(../../themes/davivienda/images/davivienda/2.png)no-repeat right 20%;}
+.im_BigHeroChat{background: #ED1F24 url(../../themes/davivienda/images/davivienda/3.png)no-repeat right 90%;}
+#im_SearchBarHome{overflow: hidden;}
+#rn_SearchControls{overflow: hidden;padding: 20px 0px 50px;border-bottom: 1px solid #CCC;}
+#im_SearchBarHome .rn_SearchInput input[type=text]{width: 100%;}
+#im_SearchBarHome #rn_SearchControls button[type=submit]{background: #ed1f24 url(../../themes/davivienda/images/davivienda/search_icon_white.png)no-repeat 85%;color:#FFFFFF;float: left;margin:0;margin-top: 5px;margin-right:-4px;height: 38px;padding: 0 30px;padding-right: 35px;text-align: center;font-size: 16px;font-weight: 600;line-height: 35px;text-decoration: none;white-space: nowrap;border-radius: 10px;border-bottom: 5px solid #ad0000;cursor: pointer;box-sizing: border-box;}
+#im_SearchBarHome #rn_SearchControls input[type=submit]{background: #ed1f24 url(../../themes/davivienda/images/davivienda/search_icon_white.png)no-repeat 85%;color:#FFFFFF;float: left;margin:0;margin-top: 5px;margin-right:-4px;height: 38px;padding: 0 30px;padding-right: 35px;text-align: center;font-size: 16px;font-weight: 600;line-height: 35px;text-decoration: none;white-space: nowrap;border-radius: 10px;border-bottom: 5px solid #ad0000;cursor: pointer;box-sizing: border-box;}
+#im_SearchBarHome #rn_SearchControls .rn_AdvancedSearchDialog a{background: #6f6f6f;color:#FFFFFF;display: inline-block;height: 38px;padding: 0 30px;margin:0;margin-top: 5px;margin-right:-4px;margin-left: 10px;text-align: center;font-size: 16px;font-weight: 600;line-height: 35px;text-decoration: none;white-space: nowrap;border-radius: 10px;border-bottom: 5px solid #2d2d2d;cursor: pointer;box-sizing: border-box;}
+.askForm .rn_TextArea{height:200px;}
+.centerize{width: 250px;margin: 0 auto;height: 45px;}
+#im_MainContent{background: #FFFFFF;margin-bottom:60px;}
+#im_MainContent.backgroundList{background: #FFFFFF url('../../themes/davivienda/images/davivienda/background_lightbox.jpg');background-size: cover;margin-bottom:60px;}
+.breadcrumb{display: inline-block;overflow: hidden;height: 30px;margin-top: 20px;}
+.breadcrumb ul li{float: left;list-style-type: none;font-size: 12px;font-family: 'HelveticaNeueLTStdBdCn';}
+.breadcrumb ul li a{color:#666666;text-decoration: none;}
+.breadcrumb ul li a:hover{color:#ED1F24;}
+.breadcrumb li.separador{width: 20px;height: 40px;background: url(/euf/assets/themes/davivienda/images/flecha.png) no-repeat 8px 6px;}
+.im_HereWeAre{color:#ED1F24;}
+.historybackButton{float: right;display: inline-block;margin-top: 20px;background-image: url('../../themes/davivienda/images/davivienda/regresar.png');background-repeat: no-repeat;background-position: left;padding-left: 20px;}
+.historybackButton a{font-size: .9em;font-weight: 700;text-decoration: none;color:#666666;}
+.historybackButton a:hover{color:#ED1F24;}
+#im_Footer{background: #000000;color:#FFFFFF;position: relative;bottom:0px;height: 50px;width: 100%;padding: 10px 0px;line-height: 50px;}
+.paright{text-align:right;}
+.askInput{margin-left:0 !important;}
+#rn_ErrorLocation{background: #ad0000 url('../../themes/davivienda/images/davivienda/icono_error.png')no-repeat 25px 17px;border-radius: 10px;margin-bottom: 30px;padding-left:50px;}
+button[type=submit]{background: #ED1F24;color:#FFFFFF;float: left;margin:0;margin-top: 5px;margin-right:-4px;height: 38px;padding: 0 30px;text-align: center;font-size: 16px;font-weight: 600;line-height: 35px;text-decoration: none;white-space: nowrap;border-radius: 10px;border-width: 0px;border-bottom: 5px solid #ad0000;cursor: pointer;box-sizing: border-box;}
+tr.ygtvrow a{text-decoration: none;}
+.rn_AnswerList h3{color: #b81a1a !important;font-family: 'HelveticaNeueLTStdBdCn';text-decoration: none;font-size: 16px;font-weight: bold;margin: 0;line-height: 1.6;letter-spacing: 0;}
+.rn_Results{float: right;}
+.rn_ResultInfo{padding-bottom: 6px;}
+.rn_RssIcon{display: none;}
+.rn_ErrorMessage h2{display: none;}
+.rn_Paginator a{padding: 6px 10px !important;font-size: 1em !important;line-height: 2em;margin-right: 4px;}
+.rn_PaginationLinks ul li{float: left;list-style: none;display: block;}
+.rn_CurrentPage{display: block;font-size: 1em !important;padding: 4px 8px !important;}
+input[type=submit]{background: #ED1F24;color:#FFFFFF;float: left;margin:0;margin-top: 5px;margin-right:-4px;height: 38px;padding: 0 30px;text-align: center;font-size: 16px;font-weight: 600;line-height: 35px;text-decoration: none;white-space: nowrap;border-radius: 10px;border-width: 0px;border-bottom: 5px solid #ad0000;cursor: pointer;box-sizing: border-box;}
+#rn_ErrorLocation a{color:#FFFFFF;display: inline-block;padding: 10px 20px;text-decoration: none !important;}
+#rn_ErrorLocation div:first-child{padding-top:10px;}
+#rn_ErrorLocation div:last-child{padding-bottom:10px;}
+.im_AskConfirm{padding-top: 50px;}
+.im_AskConfirm img{padding: 0px 50px;}
+.im_AskConfirm a{background: #ed1f24;color:#FFFFFF;float: none;margin:0;margin-top: 5px;margin-right:-4px;height: 38px;padding: 10px 30px;text-align: center;font-size: 16px;font-weight: 600;line-height: 35px;text-decoration: none;white-space: nowrap;border-radius: 10px;border-width: 0px;border-bottom: 5px solid #ad0000;cursor: pointer;box-sizing: border-box;}
+.im_AskConfirm a:hover{background:#ad0000;}
+.im_Detail{background: #f2f2f2;border:1px solid #d9d9d9;border-radius: 10px;margin-top: 50px;padding: 30px;}
+.im_Detail h1{margin:0px;padding: 0px;color:#ED1F24;font-family: 'HelveticaNeueLTStdBdCn';}
+.im_Detail #rn_AnswerInfo{margin-bottom:30px;font-family: 'HelveticaNeueLTStdBdCn';color:#666666;}
+.im_Detail #rn_AnswerText{margin-bottom: 30px;}
+.im_Detail a{color:#303438;text-decoration: none !important;}
+.im_Detail a:hover{color:#ED1F24;}
+.im_Detail .rn_AnswerFeedback .rn_Title{border-bottom: 0px;}
+.im_Detail .rn_RelatedAnswers h2{font-size: 1.333em;font-family: 'HelveticaNeueLTStdBdCn';border-bottom: 0px;}
+.im_Detail .rn_RelatedAnswers li{list-style-image: url("../../themes/davivienda/images/flecha1.png");}
+.im_DetailTools{height: 50px;line-height: 50px;}
+.im_DetailTools a.btnTool,.cancelarChat{background-color: #ed1f24;color:#FFFFFF;float: left;margin:0;margin-top: 5px;margin-right:30px;height: 38px;padding: 0 30px;text-align: center;font-size: 16px;font-weight: 600;line-height: 35px;text-decoration: none;white-space: nowrap;border-radius: 10px;border-width: 0px;border-bottom: 5px solid #ad0000;cursor: pointer;box-sizing: border-box;}
+.cancelarChat{margin-top: -15px;margin-right: 30px;height: 38px;margin-left: 15px;}
+.im_DetailTools a.sugieraPregunta{background-image: url('../../themes/davivienda/images/davivienda/comment32.png');background-repeat: no-repeat;background-position: 10%;background-size: 16px;padding-left: 50px;}
+.im_DetailTools a.liveChat{background-image: url('../../themes/davivienda/images/davivienda/comment33.png');background-repeat: no-repeat;background-position: 10%;background-size: 23px;padding-left: 50px;}
+.im_DetailTools a.btnTool:hover{background-color: #ad0000;color:#FFFFFF !important;border-bottom: 5px solid #000000;}
+.rn_Dialog.yui3-panel-content.yui3-widget-stdmod{border-radius: 10px;background: url('../../themes/davivienda/images/davivienda/background_lightbox.jpg') !important;background-position: center;background-repeat: no-repeat;background-size: auto;padding: 33px;}
+.rn_PanelContainer.yui3-panel-content.yui3-widget-stdmod{background: #FFFFFF;padding: 10px;width: 445px;}
+.yui3-skin-sam .yui3-panel .yui3-widget-hd{background:transparent !important;font-size: 1.8em;padding: 20px;font-family: 'HelveticaNeueLTStdBdCn';color:#ED1F24 !important;border-radius: 10px 10px 0px 0px;}
+.rn_DialogContent .rn_AdvancedKeyword.rn_AdvancedSubWidget .rn_KeywordText input{width: 100%;}
+.rn_AdvancedSearchDialog .rn_DialogContent .rn_AdvancedFilter button{max-width: 100% !important;width:100% !important;border-radius: 10px;padding: 10px;}
+.rn_ProductCategorySearchFilter .rn_Label{display: none;}
+.rn_AnswerFeedbackForm .rn_Textarea, .rn_AnswerFeedbackForm .rn_EmailField{width: 100% !important;}
+.yui3-skin-sam .yui3-panel .yui3-widget-ft{background:transparent !important;border-radius: 0px 0px 10px 10px;}
+.yui3-skin-sam .yui3-panel .yui3-widget-ft button{background-color: #ed1f24;color:#FFFFFF;float: left;margin:0;margin-top: 5px;margin-right:30px;height: 38px;padding: 0 30px;text-align: center;font-size: 16px;font-weight: 600;line-height: 35px;text-decoration: none;white-space: nowrap;border-radius: 10px;border-width: 0px;border-bottom: 5px solid #ad0000;cursor: pointer;box-sizing: border-box;}
+.horariosChat{background-color:#EEEEEE;overflow: hidden;padding: 30px 0px;}
+.horariosChat img{float: left;margin-right: 40px;}
+#aviso .btnTyc{cursor: pointer;color:#ED1F24;}
+.im_tyc{display: none;padding: 30px;margin-top: 20px;background-color: #EEEEEE;width: 90%;}
+.im_headerChatLanding{height: 70px;margin: 0;padding: 0;font-family: 'HelveticaNeueLTStdBdCn';}
+.im_topHeaderChat{background-color:#ED1F24;height: 30px;padding: 10px 0px;text-align: center;}
+.im_actionsHeaderChat{background-color: #FFFFFF;color:#666666;overflow: hidden;}
+.rn_ChatTranscript .rn_MessagePost{padding: 5px;color: #666666;}
+.rn_ChatDialogContainer{min-height: 400px;}
+#rn_ChatFooter{background-color: black;padding: 10px 0px;width: 100%;color:#FFFFFF;overflow: hidden;min-height: 50px;line-height: 50px;}
+#rn_ChatFooter img{float: left;margin-top: 10px;margin-left: 1em;}
+#rn_ChatFooter p{float: right;margin: 0;margin-right: 1em;font-size: .75em;}
+.backButton{background: #666666;background-repeat: no-repeat;background-position: 10%;background-size: 23px;color: #FFFFFF;float: left;margin: 0;margin-top: 5px;margin-right: -4px;margin-left: 10px;height: 38px;padding: 0 30px;text-align: center;font-size: 16px;font-weight: 600;line-height: 35px;text-decoration: none;white-space: nowrap;border-radius: 10px;border-width: 0px;border-bottom: 5px solid #333333;cursor: pointer;box-sizing: border-box;}
+.yui3-widget-buttons button:nth-child(2){background:#666666 !important;border-bottom: 5px solid #333333 !important;}
+.rn_QuestionText, .rn_QuestionText p, .rn_QuestionText p span, .rn_QuestionText ol li span, .rn_QuestionText ul li span{font-family: 'HelveticaNeueLTStdCn' !important;font-size: 16px !important;}
+.rn_Node{overflow: hidden;}
+.rn_Response.rn_ButtonQuestion button{background: #ED1F24 !important;color:#FFFFFF !important;float: left;margin:0;margin-top: 5px;margin-right:-4px;height: 38px;padding: 0 30px !important;text-align: center;font-size: 16px;font-weight: 400 !important;line-height: 35px;text-decoration: none;white-space: nowrap;border-radius: 10px;border-width: 0px !important;border-bottom: 5px solid #ad0000;cursor: pointer;box-sizing: border-box;}
+.rn_GuidedAssistant{position: relative;overflow: hidden;}
+.rn_Suggestion{display: none;}
+.linkblack{color:#333;font-weight: bold;text-decoration: none;font-family: 'HelveticaNeueLTStdHvCn', sans-serif;}
+.btnPdf{background-color: #ed1f24;background-image: url('../../themes/davivienda/images/davivienda/pdf-file.png');background-repeat: no-repeat;background-size: 16px;background-position: 10% 50%;color: #FFFFFF !important;float: left;margin: 0;margin-top: 5px;margin-right: 30px;height: 38px;padding: 0px 20px 0px 45px;text-align: center;font-size: 16px;font-weight: 600;line-height: 35px;text-decoration: none;white-space: nowrap;border-radius: 10px;border-width: 0px;border-bottom: 5px solid #ad0000;cursor: pointer;box-sizing: border-box;}
+.im_DetailTools a.btnPdf:hover{background-color: #ad0000;color: #FFFFFF !important;border-bottom: 5px solid #000000;}
+#rn_TranscriptContainer{margin-bottom: 35px;}
+.rn_ChatTranscriptWithTime.rn_ChatTranscript{padding:0.3em;margin: 0 auto;border-radius: 0px 0px 10px 10px;font-family: 'HelveticaNeueLTStdCn';width: 600px;height: 22em;overflow: auto;}
+.rn_ChatTranscriptBlock .rn_MessagePost{clear: both;border: 1px solid #ccc;display: block;padding: 20px 20px 10px 20px;border-radius: 10px;margin-bottom: 20px;font-size: 1.2em;}
+.rn_TimeCustom{text-align: right;font-size: .8em;}
+.rn_ChatTranscript .rn_ChatTranscriptBlock .rn_AgentTextPrefix, .rn_ChatTranscript .rn_ChatTranscriptBlock .rn_Action{color: #303438;font-weight: bold;}
+.rn_ChatTranscript .rn_ChatTranscriptBlock .rn_UserTextPrefix{color: #303438;font-weight: bold;}
+.rn_ChatTranscript .rn_ChatTranscriptBlock .rn_OffTheRecordMessage{color: #ED1F24;font-weight: bold;}
+.rn_ChatTranscript .rn_ChatTranscriptBlock blockquote, .rn_ChatTranscript .rn_ChatTranscriptBlock ul, .rn_ChatTranscript .rn_ChatTranscriptBlock ol, .rn_ChatTranscript .rn_ChatTranscriptBlock dl{margin:1em;}
+.rn_ChatTranscript .rn_ChatTranscriptBlock ol, .rn_ChatTranscript .rn_ChatTranscriptBlock ul, .rn_ChatTranscript .rn_ChatTranscriptBlock dl{margin-left:2em;}
+.rn_ChatTranscript .rn_ChatTranscriptBlock ol li{list-style: decimal outside;}
+.rn_ChatTranscript .rn_ChatTranscriptBlock ul li{list-style: disc outside;}
+@media print{.rn_ChatTranscript, .rn_ChatTranscript .rn_ChatTranscriptBlock{border:0;height:auto;margin:0;overflow:visible;word-wrap:break-word;}
+}
+#rn_LoginStatus{float: right;color: #FFFFFF;}
+#rn_LoginStatus a{color:#FFFFFF;text-decoration: none;}
+#rn_LoginStatus a:hover{color:#EDEDED;text-decoration: underline;}
+.yui3-widget-stacked .yui3-widget-shim{opacity:0;filter:alpha(opacity=0);position:absolute;border:0;top:0;left:0;padding:0;margin:0;z-index:-1;width:100%;height:100%;_width:0;_height:0}
+#yui3-css-stamp.skin-sam-widget-stack{display:none}
+.yui3-skin-sam .yui3-widget-mask{background-color:black;zoom:1;-ms-filter:"alpha(opacity=40)";filter:alpha(opacity=40);opacity:.4}
+#yui3-css-stamp.skin-sam-widget-modality{display:none}
+.yui3-overlay{position:absolute;}
+.yui3-overlay-hidden{visibility:hidden}
+.yui3-widget-tmp-forcesize .yui3-overlay-content{overflow:hidden !important;}
+.yui3-panel{position:absolute}
+.yui3-panel-hidden{visibility:hidden}
+.yui3-widget-tmp-forcesize .yui3-panel-content{overflow:hidden!important}
+.yui3-panel .yui3-widget-hd{position:relative}
+.yui3-panel .yui3-widget-hd .yui3-widget-buttons{position:absolute;top:0;right:0}
+.yui3-panel .yui3-widget-ft .yui3-widget-buttons{display:inline-block;*display:inline;zoom:1}
+.yui3-skin-sam .yui3-panel-content{-webkit-box-shadow:0 0 5px #333;-moz-box-shadow:0 0 5px #333;box-shadow:0 0 5px #333;border:1px solid black;background:white}
+.yui3-skin-sam .yui3-panel .yui3-widget-hd{padding:8px 28px 8px 8px;min-height:13px;_height:13px;color:white;background-color:#3961c5;background:-moz-linear-gradient(0% 100% 90deg,#2647a0 7%,#3d67ce 50%,#426fd9 100%);background:-webkit-gradient(linear,left bottom,left top,from(#2647a0),color-stop(0.07,#2647a0),color-stop(0.5,#3d67ce),to(#426fd9))}
+.yui3-skin-sam .yui3-panel .yui3-widget-hd .yui3-widget-buttons{padding:8px}
+.yui3-skin-sam .yui3-panel .yui3-widget-bd{padding:10px}
+.yui3-skin-sam .yui3-panel .yui3-widget-ft{background:#edf5ff;padding:8px;text-align:right}
+.yui3-skin-sam .yui3-panel .yui3-widget-ft .yui3-button{margin-left:8px}
+.yui3-skin-sam .yui3-panel .yui3-widget-hd .yui3-button-close{background:transparent;filter:none;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;width:13px;height:13px;padding:0;overflow:hidden;vertical-align:top;*font-size:0;*line-height:0;*letter-spacing:-1000px;*color:#86a5ec;*background:url(/rnt/rnw/yui_3.18/panel/assets/skins/sam/sprite_icons.png) no-repeat 1px 1px}
+.yui3-skin-sam .yui3-panel .yui3-widget-hd .yui3-button-close:before{content:url(/rnt/rnw/yui_3.18/panel/assets/skins/sam/sprite_icons.png);display:inline-block;text-align:center;font-size:0;line-height:0;width:13px;margin:1px 0 0 1px}
+.yui3-skin-sam .yui3-panel-hidden .yui3-widget-hd .yui3-button-close{display:none}
+#yui3-css-stamp.skin-sam-panel{display:none}

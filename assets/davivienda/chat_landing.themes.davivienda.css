@@ -1,0 +1,65 @@
+.rn_ChatDisconnectButton img{vertical-align: middle;}
+.rn_ChatDisconnectButton{float: right;margin-right:20px;color:#666666;}
+.rn_ChatDisconnectButton button{background: none;border: 0px;font-family: 'HelveticaNeueLTStdBdCn';font-size: 1em;color:#FFFFFF;cursor: pointer;}
+.rn_ChatSoundButton img{vertical-align: middle;}
+.rn_ChatSoundButton .rn_FlashContainer{position: absolute;top: -500px;left: -500px;}
+.rn_ChatSoundButton{float: right;}
+.rn_ChatSoundButton button{background: none;border: 0px;}
+.rn_ChatPostMessage textarea{overflow: auto;resize: none;}
+.rn_ChatPostMessage span{display: block;}
+.rn_ChatPostMessage legend{display: none;}
+.rn_ChatPostMessage textarea{width: 60%;float: left;padding: 0;border-radius: 10px;border: #d1d1d1 1px solid;font-family: 'HelveticaNeueLTStdCn';padding: 2%;font-size: 1em;color: #666666;height: 40px;margin: 0 2%;}
+.rn_ChatPostMessage{margin:0 1.2em 0em 1em;}
+@media print{.rn_ChatPostMessage{display:none;}
+}
+.rn_ChatOffTheRecordDialog .rn_Textarea{clear:left;display:block;margin-bottom:1em;width:260px;}
+.rn_ChatOffTheRecordDialog{width: 325px;}
+.rn_ChatOffTheRecordDialog label{display:block;}
+.rn_ChatServerConnect{text-align:center;}
+.rn_ChatServerConnect{border-width:1px 0;line-height:1.5em;font-size: 1.5em;margin:0 0 1em;padding:5px;min-height: 400px;font-family: 'HelveticaNeueLTStdBdCn';}
+.rn_ChatResumeSessionDialog{width: 358px;}
+.rn_ChatEngagementStatus{border-width:1px 0;padding:5px;line-height:1.25em;margin:0 0 1em;font-family: 'HelveticaNeueLTStdBdCn';}
+.rn_ChatEngagementStatus .rn_SearchingDetailMessage, .rn_ChatEngagementStatus .rn_RequeuedDetailMessage, .rn_ChatEngagementStatus .rn_CanceledUserDetailMessage, .rn_ChatEngagementStatus .rn_CanceledSelfServiceDetailMessage, .rn_ChatEngagementStatus .rn_CanceledNoAgentsAvailDetailMessage, .rn_ChatEngagementStatus .rn_CanceledQueueTimeoutDetailMessage, .rn_ChatEngagementStatus .rn_CanceledDequeuedDetailMessage{padding: 10px;}
+.rn_ChatEngagementStatus .rn_StatusPrefix, .rn_ChatEngagementStatus .rn_Status{font-weight:bolder;}
+@media print{.rn_ChatEngagementStatus{display:none;}
+}
+.rn_ChatQueueWaitTime{padding:40px;text-align: center;font-size: 1.5em;margin:0em 1em 1em 1em;line-height:1.25em;}
+.rn_ChatQueueWaitTime .rn_ChatQueuePosition, .rn_ChatQueueWaitTime .rn_ChatEstimatedWaitTime, .rn_ChatQueueWaitTime .rn_ChatAverageWaitTime{padding-right:2px;}
+.rn_VirtualAssistantAvatar{float: left;max-height: 100px;max-width: 81px;border: solid #bbb;border-width: 1px 0 0 1px;}
+.rn_VirtualAssistantAvatar > .rn_DefaultEmotion{height: 100px;width: 81px;position: relative;top: 0;left: 0;z-index: 1;}
+.rn_VirtualAssistantAvatar > .rn_Emotion{margin-top: -100px;height: 100px;width: 81px;position: relative;top: 0;left: 0;z-index: 2;}
+.rn_VirtualAssistantAvatar > div.listen{background: #fff url(/assets/davivienda/avatar_sprite.png) 0 0 no-repeat;}
+.rn_VirtualAssistantAvatar > div.happy{background: #fff url(/assets/davivienda/avatar_sprite.png) 0 -100px no-repeat;}
+.rn_VirtualAssistantAvatar > div.stop{background: #fff url(/assets/davivienda/avatar_sprite.png) 0 -200px no-repeat;}
+.rn_VirtualAssistantAvatar > div.angry{background: #fff url(/assets/davivienda/avatar_sprite.png) 0 -300px no-repeat;}
+.rn_VirtualAssistantAvatar > div.chat_default{background: #fff url(/assets/davivienda/avatar_photo.jpg) -15px 0 no-repeat;}
+.rn_VirtualAssistantBanner{float: right;max-height: 100px;max-width: 250px;overflow: hidden;}
+.rn_VirtualAssistantBanner a:focus img{border: 2px solid #666;}
+.rn_ChatCancelButton img{vertical-align: middle;}
+.rn_ChatCancelButton{float: right;margin:0em 1em;}
+.rn_ChatRequestEmailResponseButton{float: right;margin:1em 5px;}
+.rn_ChatAttachFileConfirmButton.rn_ChatAttachFileButton{}
+.rn_ChatAttachFileConfirmButton form input[type=file]{display: none;}
+.rn_ChatFileAttachContent{width: 325px;}
+.rn_ChatAttachFileButton{float: left;margin: 1em 5px;}
+.rn_ChatAttachFileButtonContent button{background-image: url(/assets/davivienda/paper-clip.png);background-repeat: no-repeat;background-position: top center;background-color: white;padding-top: 30px;color: #666666;float: left;height: 80px;text-align: center;font-size: 16px;line-height: 35px;text-decoration: none;border-width: 0px;font-family: 'HelveticaNeueLTStdBdCn';cursor: pointer;}
+.rn_ChatSendButton img{vertical-align: middle;margin-top: -3px;margin-bottom: -3px;}
+.rn_ChatSendButton{float: left;margin:0em 20px;}
+.rn_ChatSendButton button{background-image: url(/assets/davivienda/send-arrow.png);background-repeat: no-repeat;background-position: right;background-color: #FFFFFF;color: #666666;font-size: 21px;line-height: 80px;padding: 0px 50px 0 0;border: 0px;font-family: 'HelveticaNeueLTStdBdCn';cursor: pointer;}
+@media print{.rn_ChatSendButton{display:none;}
+}
+.rn_VirtualAssistantSimilarMatches{max-height: 50px;overflow-x: hidden;overflow-y: auto;margin: .5em 1.2em;}
+.rn_VirtualAssistantSimilarMatches a, .rn_VirtualAssistantSimilarMatches a:link, .rn_VirtualAssistantSimilarMatches a:hover, .rn_VirtualAssistantSimilarMatches a:visited{color: #000 !important;}
+.rn_VirtualAssistantSimilarMatches ul li:before{content: '\3E';}
+.rn_VirtualAssistantFeedback{margin: 0 1.2em;}
+.rn_VirtualAssistantFeedback .rn_Title{margin-bottom:2px;padding-bottom:2px;font-size:1em;font-weight:bold;line-height:1.4em;}
+.rn_VirtualAssistantFeedback .rn_RatingMeter a.rn_RatingCell{background:url(/assets/davivienda/RatingStars.png) 0 0 no-repeat;display: inline-block;height:18px;margin:4px 0;text-decoration:none;width:20px;position: relative;left: 180px;top: -28px;}
+.rn_HighContrastMode .rn_VirtualAssistantFeedback .rn_RatingMeter a.rn_RatingCell:before{content: "\2606";}
+.rn_VirtualAssistantFeedback .rn_RatingMeter a.rn_RatingCellOver{background-position: 0 -18px;cursor:pointer;}
+.rn_HighContrastMode .rn_VirtualAssistantFeedback .rn_RatingMeter a.rn_RatingCellOver:before{content: "\2605";}
+.rn_VirtualAssistantFeedback .rn_ThanksLabel{position: relative;left: 65px;}
+.rn_VirtualAssistantFeedback *:focus{outline: 0;}
+.rn_ChatStatus{font-size: 1.333em;font-weight: bold;line-height: 1.4em;color:#ED1F24;}
+.rn_ChatHours{padding-left: 150px;}
+.rn_ChatHours .rn_HoursBlock{margin: 3px 0 0 0;}
+.rn_ChatHours .rn_HoursLabel{color: #ED1F24;font-size: 1em;font-weight: bold;line-height: 1.3em;}
